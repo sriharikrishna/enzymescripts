@@ -1,0 +1,32 @@
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 48 -i 20 > ser-mpiforward_1_20_48_0.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 48 -i 20 > ser-mpigradient_1_20_48_0.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 48 -i 20 > ser-mpiforward_1_20_48_1.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 48 -i 20 > ser-mpigradient_1_20_48_1.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 48 -i 20 > ser-mpiforward_1_20_48_2.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 48 -i 20 > ser-mpigradient_1_20_48_2.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 48 -i 20 > ser-mpiforward_1_20_48_3.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 48 -i 20 > ser-mpigradient_1_20_48_3.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 48 -i 20 > ser-mpiforward_1_20_48_4.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 48 -i 20 > ser-mpigradient_1_20_48_4.txt  
+
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 24 -i 20 > ser-mpiforward_8_20_24_0.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 24 -i 20 > ser-mpigradient_8_20_24_0.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 24 -i 20 > ser-mpiforward_8_20_24_1.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 24 -i 20 > ser-mpigradient_8_20_24_1.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 24 -i 20 > ser-mpiforward_8_20_24_2.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 24 -i 20 > ser-mpigradient_8_20_24_2.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 24 -i 20 > ser-mpiforward_8_20_24_3.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 24 -i 20 > ser-mpigradient_8_20_24_3.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 24 -i 20 > ser-mpiforward_8_20_24_4.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 24 -i 20 > ser-mpigradient_8_20_24_4.txt  
+
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 16 -i 20 > ser-mpiforward_27_20_16_0.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 16 -i 20 > ser-mpigradient_27_20_16_0.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 16 -i 20 > ser-mpiforward_27_20_16_1.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 16 -i 20 > ser-mpigradient_27_20_16_1.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 16 -i 20 > ser-mpiforward_27_20_16_2.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 16 -i 20 > ser-mpigradient_27_20_16_2.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 16 -i 20 > ser-mpiforward_27_20_16_3.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 16 -i 20 > ser-mpigradient_27_20_16_3.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-forward.exe -s 16 -i 20 > ser-mpiforward_27_20_16_4.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/OpenMPMPICPP/ser-mpi-gradient.exe -s 16 -i 20 > ser-mpigradient_27_20_16_4.txt

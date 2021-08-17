@@ -1,0 +1,3 @@
+Running problem size 27^3 per domain until completion
+Num processors: 2
+Num processors must be a cube of an integer (1, 8, 27, ...)

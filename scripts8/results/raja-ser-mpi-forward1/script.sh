@@ -1,0 +1,32 @@
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 48 -i 20 > ser-mpi_1_20_48_0.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 48 -i 20 > ser-mpi-grad_1_20_48_0.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 48 -i 20 > ser-mpi_1_20_48_1.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 48 -i 20 > ser-mpi-grad_1_20_48_1.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 48 -i 20 > ser-mpi_1_20_48_2.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 48 -i 20 > ser-mpi-grad_1_20_48_2.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 48 -i 20 > ser-mpi_1_20_48_3.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 48 -i 20 > ser-mpi-grad_1_20_48_3.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 48 -i 20 > ser-mpi_1_20_48_4.txt  
+  mpirun -n 1 taskset -c 0-0 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 48 -i 20 > ser-mpi-grad_1_20_48_4.txt  
+
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 24 -i 20 > ser-mpi_8_20_24_0.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 24 -i 20 > ser-mpi-grad_8_20_24_0.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 24 -i 20 > ser-mpi_8_20_24_1.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 24 -i 20 > ser-mpi-grad_8_20_24_1.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 24 -i 20 > ser-mpi_8_20_24_2.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 24 -i 20 > ser-mpi-grad_8_20_24_2.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 24 -i 20 > ser-mpi_8_20_24_3.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 24 -i 20 > ser-mpi-grad_8_20_24_3.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 24 -i 20 > ser-mpi_8_20_24_4.txt  
+  mpirun -n 8 taskset -c 0-7 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 24 -i 20 > ser-mpi-grad_8_20_24_4.txt  
+
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 16 -i 20 > ser-mpi_27_20_16_0.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 16 -i 20 > ser-mpi-grad_27_20_16_0.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 16 -i 20 > ser-mpi_27_20_16_1.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 16 -i 20 > ser-mpi-grad_27_20_16_1.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 16 -i 20 > ser-mpi_27_20_16_2.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 16 -i 20 > ser-mpi-grad_27_20_16_2.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 16 -i 20 > ser-mpi_27_20_16_3.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 16 -i 20 > ser-mpi-grad_27_20_16_3.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi.exe -s 16 -i 20 > ser-mpi_27_20_16_4.txt  
+  mpirun -n 27 taskset -c 0-26 numactl -i all ~/LULESH-MPI-RAJA/buildomp14/bin/lulesh-v2.0-RAJA-seq-mpi-grad.exe -s 16 -i 20 > ser-mpi-grad_27_20_16_4.txt  

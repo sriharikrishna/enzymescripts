@@ -1,0 +1,10 @@
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Num processors must be a cube of an integer (1, 8, 27, ...)
+Running problem size 8^3 per domain until completion
+Num processors: 9
+Num processors must be a cube of an integer (1, 8, 27, ...)

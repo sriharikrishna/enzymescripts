@@ -1,0 +1,27 @@
+Running problem size 27^3 per domain until completion
+Num processors: 27
+Total number of elements: 531441
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:  
+   Problem size        =  27 
+   MPI tasks           =  27 
+   Iteration count     =  100 
+   Final Origin Energy = 2.603415e+07 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 5.587935e-09
+        TotalAbsDiff = 9.912711e-09
+        MaxRelDiff   = 1.088472e-12
+
+
+Elapsed time         =      43.86 (s)
+Grind time (us/z/c)  =   22.28459 (per dom)  (0.82535517 overall)
+FOM                  =  1211.5996 (z/s)
+
